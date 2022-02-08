@@ -72,8 +72,7 @@ class CombineInput extends React.Component{
     wholeValue = () => { // 确定按钮拼接成对应的地址
         const head = this.selectList[Number(this.state.selectFirstValue)-1].name
         const foot = this.behindList[Number(this.state.selectSecondValue)-1].name
-        // console.log(head, foot)
-        console.log(`${head}${this.state.inputValue}${foot}`)
+        // console.log(`${head}${this.state.inputValue}${foot}`)
         window.open(`${head}${this.state.inputValue}${foot}`,'_blank')
         // return `${head}${this.state.inputValue}${foot}`
     }

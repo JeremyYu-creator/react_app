@@ -12,6 +12,7 @@ import characterData from './view/table/mockData'
 import {Button, version, message,} from "antd";
 import { SearchOutlined } from '@ant-design/icons';
 
+
 class App extends Component{// 父类的写法
     constructor(props) {
         super(props);
