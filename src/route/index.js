@@ -6,8 +6,8 @@ import Form from "../view/form/form";
 const AppRouter = () => {
     return (
         <Router>
-            <Route path={'/table'} element={Table}></Route>
-            <Route path={'/form'} element={Form}></Route>
+            <Route path={'/table'} element={<Table/>}></Route>
+            <Route path={'/form'} element={<Form/>}></Route>
         </Router>
     )
 }

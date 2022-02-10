@@ -26,3 +26,12 @@ App {
 .range-style {
   margin: 20px;
 }
+.main{
+  display: flex;
+}
+.left{
+  margin: 10px 0
+}
+.right {
+  margin: 20px
+}
